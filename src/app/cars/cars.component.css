@@ -1,0 +1,16 @@
+.list-group button{
+background: linear-gradient(to right, #252527, #ffffff);
+transition: 0.3s;
+display: flex;
+justify-content: space-between;
+}
+.list-group button:active{
+    background: linear-gradient(to right, #252527, #ffffff);
+    transition: 0.5s;
+}
+
+.list-group button:hover{
+    background: linear-gradient(to right, #ffffff, #252527);
+    transition: 0.5s;
+}
+

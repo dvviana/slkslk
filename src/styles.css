@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+h1{
+    background: linear-gradient(to right, #252527, #ffffff);
+    color: #000000;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    outline: solid 5px #000000 ;
+}
+
+.list-group button{
+    background: linear-gradient(to right, #252527, #ffffff);
+    color: rgb(0, 0, 0);
+    border: none; 
+    text-align: left;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.2s;
+    width: auto;
+    height:95px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.2s;
+}
+
+.list-group button:hover{
+  scale: 102%;
+  background: linear-gradient(to left, #252527, #ffffff);
+  height:fit-content;
+}
+
+.list-group button:active{
+  scale: 98%;
+  background-color: #4b484d;
+  transition: 0.2s;
+}
+
+.IMAGEM-CARRO{
+    width: 300px;
+    height: fit-content;
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
