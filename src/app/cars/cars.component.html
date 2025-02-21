@@ -3,11 +3,13 @@
     <li *ngFor="let carro of carro" class="list-group-item">
         <div class="card">
             <div>   
-                <h2> <span class="MODELO">{{carro.modelo}}</span><br>
-                <span class="marca">{{carro.marca}}</span><br> </h2>
-                <span>{{carro.ano}}</span><br>
-                <span>{{carro.cor}}</span><br>
-                <span>R${{carro.preco}},00</span><br>
+                <h3> <span class="MODELO">{{carro.modelo}}</span><br>
+                <span class="marca">{{carro.marca}}</span><br> </h3>
+                <h4>
+                    <span>{{carro.ano}}</span><br>
+                    <span>{{carro.cor}}</span><br>
+                    <span>R${{carro.preco}},00</span><br>
+                </h4>
             </div>
             <div class="abc">
                 <span><img src="{{carro.imagem}}" alt="carro" class="IMAGEM-CARRO"></span><br>
