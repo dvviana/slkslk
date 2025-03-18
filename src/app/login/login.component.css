@@ -1,0 +1,26 @@
+.ver-carros{
+    background-color: #cc0e1e;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 18px;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial';
+    text-align: center;
+    transition: 0.3s;
+    
+}
+
+.ver-carros:hover {
+    width: 400px;
+    background-color: #e62d3c;
+    /* border: solid 5px #f3838d;
+    border-bottom: solid 5px #4d040e;
+    border-left: solid 5px #4d040e; */
+    
+
+}

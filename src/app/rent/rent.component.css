@@ -1,0 +1,19 @@
+.botao2{
+    background-color: #fff781;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.botao2:hover {
+    opacity: 1;
+}

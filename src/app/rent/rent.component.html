@@ -1,0 +1,9 @@
+<button [routerLink]="['/cars']" class="botao2">Voltar a carros</button>
+
+<div class="purchase-container">
+    <h2>Confirmação de Compra</h2>
+    <p>Carro: {{ selectedCar.name }}</p>
+    <p>Preço: R$ {{ selectedCar.price }}</p>
+    <button (click)="confirmPurchase()">Confirmar Compra</button>
+  </div>
+  

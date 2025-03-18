@@ -1,6 +1,8 @@
 <h2>CARROS DISPONIVEIS</h2>
+<button [routerLink]="['/']" class="back-button">Voltar</button>
 <ul class="list-group">
-    <li *ngFor="let carro of carro" class="list-group-item">
+    <li *ngFor="let carro of carro" class="list-group-item"
+    [ngStyle]="{'style':'none'}">
         <div class="card">
             <div>   
                 <h3> <span class="MODELO">{{carro.modelo}}</span><br>
@@ -13,6 +15,9 @@
             </div>
             <div class="abc">
                 <span><img src="{{carro.imagem}}" alt="carro" class="IMAGEM-CARRO"></span><br>
-                <button class="botao">Alugar</button>
+                <button [routerLink]="['/rent']" class="botao">comprar</button>
             </div>
         </div>
+
+    </li>
+</ul>
