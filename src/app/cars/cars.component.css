@@ -8,10 +8,11 @@
     cursor: pointer;
     transition: 0.3s;
     width: 100%;
+    font-size: larger;
 }
 
 .list-group button:hover{
-    background: linear-gradient(to right, #cc0e1e, #000000);
+    background: linear-gradient(to right, #cc0e1e, #cc0e1e);
     color: rgb(255, 255, 255);
     border: none;
     padding: 10px;
@@ -19,6 +20,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    scale: 1.04;
 }
 
 h2{
@@ -86,12 +88,22 @@ span{
 }
 
 .back-button:hover{
-    background: linear-gradient(to right, #000000, #cc0e1e);
+    background:  #cc0e1e;
     color: rgb(255, 255, 255);
     border: none;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
+    opacity: 0.1;
     transition: 0.3s;
+}
+
+.MODELO, .marca{
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    color: #ffffffc5;
+    font-style: oblique;
+
 }
