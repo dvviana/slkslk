@@ -5,6 +5,7 @@ import { CarsComponent } from './cars/cars.component';
 import { RentComponent } from './rent/rent.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { ConfirmPurchaseComponent } from './confirm-purchase/confirm-purchase/confirm-purchase.component'; // Ensure this path is correct and the file exists
 
 const routes: Routes = [
   {path: '', component: LoginComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'rent', component: RentComponent},
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent},
+  {path: 'confirm-purchase', component: ConfirmPurchaseComponent},
 
 ];
 

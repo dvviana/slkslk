@@ -25,7 +25,7 @@ h1{
 }
 
 body{
-    background: linear-gradient(to right, #000000, #030333);
+    background: linear-gradient(to right, #000000, #000000);
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;

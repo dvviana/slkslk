@@ -3,6 +3,6 @@ export interface Carro {
     modelo: string;
     ano: number;
     cor: string;
-    preco: number;
+    preco: string;
     imagem: string;
 }
