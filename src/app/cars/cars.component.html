@@ -1,6 +1,6 @@
 <h2>CARROS DISPONIVEIS</h2>
 <ul class="list-group">
-    <li *ngFor="let carro of carro" class="list-group-item"
+    <li *ngFor="let carro of paginatedCars" class="list-group-item"
     [ngStyle]="{'style':'none'}">
         <div class="card">
             <div>   
@@ -22,4 +22,9 @@
 
     </li>
 </ul>
+<div class="pagination">
+    <button (click)="prevPage()" [disabled]="currentPage === 0">Anterior</button>
+    <span>Página {{ currentPage + 1 }}</span>
+    <button (click)="nextPage()" [disabled]="(currentPage + 1) * pageSize >= carro.length">Próxima</button>
+  </div>
 <!-- <button [routerLink]="['/']" class="back-button">Voltar</button> -->

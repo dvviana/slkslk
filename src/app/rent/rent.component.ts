@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-
+import { Router } from '@angular/router';
+import { ConfirmPurchaseComponent } from '../confirm-purchase/confirm-purchase/confirm-purchase.component';
 
 @Component({
   selector: 'app-rent',
@@ -10,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 export class RentComponent implements OnInit {
   selectedCar: any;
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
@@ -22,7 +23,8 @@ export class RentComponent implements OnInit {
   }
 
   confirmPurchase(): void {
-    alert(`Compra confirmada para o carro: ${this.selectedCar.name} por R$ ${this.selectedCar.price}`);
+   ;
+  this.router.navigate(['/confirm-purchase'], { queryParams: { name: this.selectedCar.name, price: this.selectedCar.price } });
   }
 }
 
